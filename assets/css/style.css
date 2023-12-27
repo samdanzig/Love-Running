@@ -20,7 +20,7 @@ body {
 /* Header */
 header {
     background-color: #ffffff;
-    paddingL 0 1rem;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -84,10 +84,17 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
+    
     flex: 1 0 auto;
     margin-top: 47px;
 
+}
+
+/*Hero section*/
+#hero {
+    height:600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover
 }
 
 /* Footer */
