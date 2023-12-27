@@ -48,7 +48,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
 }
 
@@ -97,12 +97,12 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-}
+} 
 
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #3a3a3a; 
 }
 
 
