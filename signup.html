@@ -28,7 +28,7 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="./index.html"  >Home</a>
+                    <a href="./index.html">Home</a>
                 </li>
                 <li>
                     <a href="./gallery.html">Gallery</a>
@@ -41,7 +41,31 @@
 
         </nav>
     </header>
-    <main>Main Content</main>
+    <main>
+        <section id="signup">
+            <form id=signup-form action="https://formdump.codeinstitute.net" method="post" class="text-input">
+                <h1<i class="fa-solid fa-heart-pulse"></i>LET'S GET YOU SIGNED UP!</h1><br>
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first_name" required><br>
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last_name" required><br>
+                    <label for="email_address">Email Address:</label>
+                    <input type="text" id="email_address" name="email_address" required><br>
+            </form>
+            <div class="radio-buttons">
+                <div><label for="road">Road</label>
+                    <input type="radio" id="road" name="running-preference" value="road" required checked>
+                </div>
+                <div><label for="trail">Trail</label>
+                    <input type="radio" id="trail" name="running-preference" value="trail" required checked>
+                </div>
+                <div><label for="both">Both</label>
+                    <input type="radio" id="both" name="running-preference" value="both" required checked>
+                </div>
+            </div>
+            <button type="submit" class="join-button">Let's Run!</button>
+        </section>
+    </main>
     <Footer>
         <ul id="social-networks">
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
